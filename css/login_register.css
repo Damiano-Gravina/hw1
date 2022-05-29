@@ -1,0 +1,219 @@
+body{
+    background-color: rgb(174, 109, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+  
+  
+#register {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../image/background_regist.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 2px 15px 2px;
+  font-size: 1em;
+  height: 40px;
+  color:rgb(126, 4, 241);
+}
+
+#label_name{
+  margin-top: 20%;
+}
+
+input {
+  margin-left: 0.5em;
+}
+
+article{
+  margin-top: 80px;
+  display:flex;
+  justify-content: center;
+}
+
+#icon{
+  font-size: 2.5em;
+  background-color: rgb(233, 101, 233);
+  height:13%;
+  width: fit-content;
+  border-radius: 15%;
+  color: white;
+  font-family: cooper;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 0px 5px 0px 5px
+}
+
+form{
+  background-color: rgb(224, 202, 221);
+  height: 100%;
+  border-top: 40px;
+}
+
+#regist{
+  font-size: 0.8em;
+  height: 100%;
+  background-color: rgb(168, 116, 217);
+  margin-right: 7px;
+}
+
+#label_username{
+  margin-top: 50%;
+  margin-bottom: 5%;
+}
+
+#no_account{
+  background-color: rgb(224, 202, 221);
+  border:none;
+  color:blue;
+  font-size: 0.6em;
+}
+
+#description{
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+
+
+.label_class{
+  font-size: 15px;
+  margin-right: 5px;
+  background-color: rgb(223, 183, 220);
+  border: 2px solid purple;
+}
+
+#label_password{
+  font-size: 15px;
+  margin-right: 5px;
+  background-color: rgb(223, 183, 220);
+  border: 2px solid purple;
+}
+
+.error{
+  background-color: rgb(241, 126, 126);
+  border: 2px solid black;
+}
+
+form div span{
+  position: absolute;
+  font-size: 0.5em;
+  margin-top: -15px;
+  margin-left: 8%;
+  color: rgb(173, 55, 55);
+} 
+
+.hide{
+  display: none;
+}
+
+
+@media (max-width: 1000px){
+
+  form div span{
+      margin-left: 10%;
+    }
+  }
+
+
+@media (max-width: 800px){
+
+  form div span{
+      margin-left: 15%;
+    }
+  }
+
+
+
+
+/*ERROR*/
+
+.errorWindow{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  flex-direction: column;
+  align-items: center;
+  width:50vw;
+}
+
+
+.warning{
+  background-color: rgb(233, 101, 233);
+  margin-bottom: 0px;
+  text-align: center;
+  width: 100%;
+  border:2px solid purple;
+}
+
+.errorWindow p{
+  background-color: rgb(224, 202, 221);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  border:2px solid purple;
+  border-top: none;
+}
+
+/*FINE ERROR*/
+
+
+a{
+  position: relative;
+  left: 55%;
+  background-color: rgb(224, 202, 221);
+  border:none;
+  color:blue;
+  font-size: 0.6em;
+}
+
+.material-symbols-outlined{
+  position: relative;
+  left: 90%;
+  color : rgb(126, 4, 241); 
+}
+
+
+.material-symbols-outlined{
+  position: relative;
+  left: 90%;
+  color : rgb(126, 4, 241); 
+}
+
+
+@media (max-width: 1050px){
+  body{
+      font-size: 0.8em;
+  }
+}
+
+@media (max-width: 900px){
+  #icon{
+    font-size: 2em;
+    height:8%;
+  }
+
+  #register {
+    height: 430px;
+  }
+
+  #label_name{
+    margin-top: 5%;
+  }
+
+  #label_username{
+    margin-top: 30%;
+  }
+  
+}
